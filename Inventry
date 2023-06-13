@@ -1,9 +1,90 @@
-<mxfile host="app.diagrams.net" modified="2023-06-12T06:21:06.984Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.2" etag="rEqAS4xjBp5sFQTypn18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T11:00:21.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hVNfD2AKoEg5g1gTQyM-" version="21.3.2" type="github">
   <diagram name="Page-1" id="2oeKsCkEGl7UsQUUru1w">
-    <mxGraphModel>
+    <mxGraphModel dx="1114" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-31" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="370" width="790" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-19" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="9" y="39" width="810" height="282" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-1" target="5Z2_uj3VeBYCD7jvT6bi-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-1" value="Inventory Management" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-3" target="5Z2_uj3VeBYCD7jvT6bi-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-3" target="5Z2_uj3VeBYCD7jvT6bi-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-3" value="Excel Upload / API Upload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-4" target="5Z2_uj3VeBYCD7jvT6bi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-4" value="Data Processing and transffered to S/4 Tables" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-5" target="5Z2_uj3VeBYCD7jvT6bi-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-5" value="API will be triggered as part of Background JOB to fetch Data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-8" value="Data will got to History Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="700" y="140" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-9" target="5Z2_uj3VeBYCD7jvT6bi-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-9" value="Data first go to Staging Table which will have latest data" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="550" y="140" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-16" value="Excel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="335" y="108" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-17" value="API Trigger" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="300" y="198" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-19" target="5Z2_uj3VeBYCD7jvT6bi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-19" target="5Z2_uj3VeBYCD7jvT6bi-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-22" value="Inventory Management" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="40" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-23" target="5Z2_uj3VeBYCD7jvT6bi-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-23" value="Customer Mapping" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-24" target="5Z2_uj3VeBYCD7jvT6bi-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-24" value="Select Customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-25" target="5Z2_uj3VeBYCD7jvT6bi-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-25" value="Provide Distributer and Material Mapping" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-27" value="Record Updated in S/4 Table" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="610" y="410" width="140" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-32" value="Material Mapping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="370" width="140" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
