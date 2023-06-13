@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-13T11:00:21.497Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="hVNfD2AKoEg5g1gTQyM-" version="21.3.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-13T11:03:50.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="GZIAYN4wmcV0mZpYbj2V" version="21.3.2" type="github">
   <diagram name="Page-1" id="2oeKsCkEGl7UsQUUru1w">
     <mxGraphModel dx="1114" dy="613" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,6 +84,39 @@
         </mxCell>
         <mxCell id="5Z2_uj3VeBYCD7jvT6bi-32" value="Material Mapping" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="355" y="370" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-33" target="5Z2_uj3VeBYCD7jvT6bi-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-33" target="5Z2_uj3VeBYCD7jvT6bi-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-33" value="Customer Details&lt;br&gt;List/Report Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-47" target="5Z2_uj3VeBYCD7jvT6bi-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-47" value="Option to Onboard New Customer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-48" target="5Z2_uj3VeBYCD7jvT6bi-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-48" value="Provide API Mappings" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-51" value="Schedule Jobs" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="5Z2_uj3VeBYCD7jvT6bi-53" target="5Z2_uj3VeBYCD7jvT6bi-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-53" value="Navigate Customer Details" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="235" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5Z2_uj3VeBYCD7jvT6bi-54" value="Can view 360 Report of Inventory History and Comparison" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="700" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
