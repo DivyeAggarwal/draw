@@ -112,7 +112,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZOmJjN1szqIvKfU1QNY-34" value="&lt;b&gt;Application Service&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="YZOmJjN1szqIvKfU1QNY-34" value="&lt;b&gt;SAP Build Code&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="379" y="355" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YZOmJjN1szqIvKfU1QNY-36" value="&lt;b&gt;&lt;font color=&quot;#000066&quot; style=&quot;font-size: 15px;&quot;&gt;SAP Busniess Technology Platform&amp;nbsp;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
@@ -123,14 +123,11 @@
             <mxPoint x="600" y="336" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YZOmJjN1szqIvKfU1QNY-37" value="S/4 Hana&lt;br&gt;&lt;br&gt;SAP Success Factors" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="687" y="257" width="140" height="158" as="geometry" />
+        <mxCell id="YZOmJjN1szqIvKfU1QNY-37" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="257" width="140" height="158" as="geometry" />
         </mxCell>
         <mxCell id="YZOmJjN1szqIvKfU1QNY-39" value="&lt;b&gt;External Service&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="630" y="305" width="70" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="YZOmJjN1szqIvKfU1QNY-40" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/SAP_HANA_on_Azure.svg;" parent="1" vertex="1">
-          <mxGeometry x="720" y="295" width="50" height="25" as="geometry" />
         </mxCell>
         <mxCell id="YZOmJjN1szqIvKfU1QNY-48" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YZOmJjN1szqIvKfU1QNY-41" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -156,13 +153,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WlcbldYSedxSLMsNR19L-1" value="Adobe Form" style="shape=image;verticalLabelPosition=bottom;verticalAlign=top;imageAspect=0;aspect=fixed;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGlkPSJpbnZvaWNpbmctb3B0aW9uLWZvci1wZXBwb2wiIHZpZXdCb3g9IjMuOTk5OTk5Mjg0NzQ0MjYyNyAzLjk4OTExOTI5MTMwNTU0MiA0OCA0OC4wMTMwOTk2NzA0MTAxNTYiIHdpZHRoPSI0OCIgaGVpZ2h0PSI0OC4wMTMwOTk2NzA0MTAxNTYiPjxkZWZzPjxzdHlsZT4uY2xzLTF7ZmlsbDojMDUzYjcwO30uY2xzLTJ7ZmlsbDojMGE2ZWQxO308L3N0eWxlPjwvZGVmcz48dGl0bGU+aW52b2ljaW5nLW9wdGlvbi1mb3ItcGVwcG9sPC90aXRsZT48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00NS44NCwxNi45NjJhOC40ODksOC40ODksMCwwLDAtMTIuNzgzLTUuNzEzQTEwLjc0NywxMC43NDcsMCwwLDAsMjIuNDEsNEMxMCw0LDExLjA5LDE2Ljk4OCwxMS4wOSwxNi45ODhBMTAuMjUsMTAuMjUsMCwwLDAsNCwyNi43MTUsMTAuMzgyLDEwLjM4MiwwLDAsMCwxMywzN1YzNGE3LjQyNCw3LjQyNCwwLDAsMS02LTcuMjg1LDcuMjQ5LDcuMjQ5LDAsMCwxLDUuMDI3LTYuODc3bDIuMjc5LS43NjgtLjIzMi0yLjM4OWMwLS4wNDItLjM3OS00LjIzNywyLjAxLTcuMDEzLDEuMzc3LTEuNiwzLjUyNC0yLjUsNi4zODEtMi42NjZhOS4yMDksOS4yMDksMCwwLDEsNy45OTQsNS4zMzlsMS4xNzYsMi44NzEsMi40MjQtMS4zMThBNy42LDcuNiwwLDAsMSwzNy40NDksMTNhNS41NDYsNS41NDYsMCwwLDEsNS40NDMsNC41MThsLjI4OCwxLjUyOCwxLjQxNS42NDZBNy41MTMsNy41MTMsMCwwLDEsNDksMjYuNSw3LjY4LDcuNjgsMCwwLDEsNDMsMzR2M2ExMC42MjYsMTAuNjI2LDAsMCwwLDktMTAuNUExMC40ODMsMTAuNDgzLDAsMCwwLDQ1Ljg0LDE2Ljk2MloiLz48cGF0aCBjbGFzcz0iY2xzLTIiIGQ9Ik0zOS4xMDksMjIuODQ0QTIuOTYyLDIuOTYyLDAsMCwwLDM3LDIySDIybC02LDZWNDlhMi44ODksMi44ODksMCwwLDAsMywzSDM3YTIuODg5LDIuODg5LDAsMCwwLDMtM1YyNUEyLjg0NSwyLjg0NSwwLDAsMCwzOS4xMDksMjIuODQ0Wk0zNyw0OUgxOVYzMWgyLjkwNmEzLjA4MiwzLjA4MiwwLDAsMCwyLjItLjg0NEEyLjg0NCwyLjg0NCwwLDAsMCwyNSwyOFYyNUgzN1oiLz48cG9seWdvbiBjbGFzcz0iY2xzLTIiIHBvaW50cz0iMjIgNDQuMjg2IDI3LjE0MyAzOS4xNDMgMjIgMzQgMjIgNDQuMjg2Ii8+PHBvbHlnb24gY2xhc3M9ImNscy0yIiBwb2ludHM9IjI4Ljg1NyAzNCAyOC44NTcgNDQuMjg2IDM0IDM5LjE0MyAyOC44NTcgMzQiLz48L3N2Zz4=" parent="1" vertex="1">
-          <mxGeometry x="350" y="495" width="48" height="48" as="geometry" />
-        </mxCell>
-        <mxCell id="WlcbldYSedxSLMsNR19L-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.078;exitY=1.016;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="YZOmJjN1szqIvKfU1QNY-2" target="WlcbldYSedxSLMsNR19L-1" edge="1">
+        <mxCell id="WlcbldYSedxSLMsNR19L-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.078;exitY=1.016;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="YZOmJjN1szqIvKfU1QNY-2" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="390" y="340" as="sourcePoint" />
-            <mxPoint x="440" y="290" as="targetPoint" />
+            <mxPoint x="374" y="495" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="MaRwexoo5PcD640tawHR-1" value="Azure" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/monitor/SAP_Azure_Monitor.svg;" parent="1" vertex="1">
@@ -176,6 +170,12 @@
             <mxPoint x="390" y="330" as="sourcePoint" />
             <mxPoint x="550" y="340" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="HlYbjYmZChd8IBJPYQHm-22" value="" style="shape=mxgraph.sap.icon;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeWidth=1;strokeColor=#D5DADD;fillColor=#EDEFF0;gradientColor=#FCFCFC;gradientDirection=west;aspect=fixed;SAPIcon=Document_Information_Extraction" vertex="1" parent="1">
+          <mxGeometry x="350" y="501" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HlYbjYmZChd8IBJPYQHm-23" value="SuccessFactors" style="image;image=img/lib/sap/SAP_Logo.svg;editableCssRules=.*;verticalLabelPosition=middle;labelBackgroundColor=none;verticalAlign=middle;imageAspect=0;labelPosition=right;align=left;fontSize=16;fontStyle=1;spacingLeft=0;fontColor=#002A86;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="687" y="317.5" width="30" height="15" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
