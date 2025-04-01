@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="W-08lDt5VjioLUpuFYYB-1" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#EBF8FF;arcSize=24;absoluteArcSize=1;imageWidth=64;imageHeight=64;strokeWidth=1.5;" vertex="1" parent="1">
-          <mxGeometry x="-130" y="-170" width="830" height="610" as="geometry" />
+          <mxGeometry x="-130" y="-160" width="830" height="610" as="geometry" />
         </mxCell>
         <mxCell id="W-08lDt5VjioLUpuFYYB-2" value="BTP" style="image;image=img/lib/sap/SAP_Logo.svg;editableCssRules=.*;part=1;verticalLabelPosition=middle;labelBackgroundColor=none;verticalAlign=middle;imageAspect=0;labelPosition=right;align=left;fontSize=16;fontStyle=1;spacingLeft=0;fontColor=#002A86;spacing=0;" vertex="1" parent="W-08lDt5VjioLUpuFYYB-1">
           <mxGeometry width="37" height="19" relative="1" as="geometry">
@@ -98,6 +98,18 @@
         </mxCell>
         <mxCell id="W-08lDt5VjioLUpuFYYB-118" value="" style="shape=mxgraph.sap.icon;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeWidth=1;strokeColor=#D5DADD;fillColor=#EDEFF0;gradientColor=#FCFCFC;gradientDirection=west;aspect=fixed;SAPIcon=SAP_Destination_service" vertex="1" parent="W-08lDt5VjioLUpuFYYB-1">
           <mxGeometry x="686.5" y="368" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="W-08lDt5VjioLUpuFYYB-172" value="Cloud Foundry&lt;br&gt;Runtime" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#ffffff;arcSize=24;absoluteArcSize=1;imageWidth=64;imageHeight=64;strokeWidth=1.5;" vertex="1" parent="W-08lDt5VjioLUpuFYYB-1">
+          <mxGeometry x="500" y="166" width="90" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="W-08lDt5VjioLUpuFYYB-173" value="Destination&#xa;Service" style="shape=mxgraph.sap.icon;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;strokeWidth=1;strokeColor=#D5DADD;fillColor=#EDEFF0;gradientColor=#FCFCFC;gradientDirection=west;aspect=fixed;SAPIcon=SAP_Destination_service" vertex="1" parent="W-08lDt5VjioLUpuFYYB-1">
+          <mxGeometry x="529" y="260" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="W-08lDt5VjioLUpuFYYB-176" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.625;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="W-08lDt5VjioLUpuFYYB-1" source="W-08lDt5VjioLUpuFYYB-172" target="W-08lDt5VjioLUpuFYYB-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="W-08lDt5VjioLUpuFYYB-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.001;entryY=0.791;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="W-08lDt5VjioLUpuFYYB-1" source="W-08lDt5VjioLUpuFYYB-173" target="W-08lDt5VjioLUpuFYYB-108">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="W-08lDt5VjioLUpuFYYB-23" value="" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#0070F2;fillColor=#EBF8FF;arcSize=24;absoluteArcSize=1;imageWidth=64;imageHeight=64;strokeWidth=1.5;" vertex="1" parent="1">
           <mxGeometry x="-320" y="-80" width="170" height="160" as="geometry" />
